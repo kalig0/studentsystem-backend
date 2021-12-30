@@ -21,7 +21,7 @@ import studentsystem.springboot.model.Student;
 import studentsystem.springboot.repository.StudentRepository;
 
 
-@CrossOrigin(origins = "http://danielstudentsystem.herokuapp.com/")
+@CrossOrigin(origins = "https://danielstudentsystem.herokuapp.com/")
 @RestController
 @RequestMapping("api/v1/")
 public class StudentController {
